@@ -1,0 +1,390 @@
+// ============== bg ===========
+.bg {
+  background-image: url(../images/bg.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .brightness {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.808),
+      rgba(0, 0, 0, 0.404)
+    );
+  }
+  .form {
+    width: 40%;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    h1 {
+      color: white;
+      font-size: $fs-h1;
+    }
+    p {
+      color: white;
+      font-size: $fs-p;
+      margin: 3% 0;
+    }
+    form {
+      display: inline-flex;
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 5%;
+      input {
+        width: 70%;
+        font-size: $fs-p;
+        padding: 2%;
+        border-radius: 10px 0 0 10px;
+        border: none;
+        outline: none;
+      }
+      button {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 4%;
+        font-size: $fs-p;
+        background-color: red;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 0 10px 10px 0;
+      }
+    }
+  }
+}
+// ================ tv =================
+main {
+  background-color: black;
+  width: 100%;
+
+  .tv {
+    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    width: 100%;
+    padding: 3% 0;
+    .tv-container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .tv-text {
+        width: 35%;
+        h1 {
+          color: white;
+          font-size: $fs-h1;
+          margin: 3% 0;
+        }
+        p {
+          color: white;
+          font-size: $fs-p;
+        }
+      }
+      .tv-img {
+        position: relative;
+        width: 35%;
+        overflow: hidden;
+        .tv-png {
+          display: flex;
+          z-index: 2;
+          position: relative;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .tv-vid {
+          position: absolute;
+          top: 20%;
+          left: 12%;
+          display: flex;
+          width: 80%;
+          video {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  // ============ download ==========
+  .download {
+    padding: 3% 0;
+
+    .download-container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .download-img {
+        width: 30%;
+        position: relative;
+        .do-img {
+          display: flex;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .icon {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+          bottom: 8%;
+          left: 0;
+          right: 0;
+          background-color: black;
+          border: 1px white solid;
+          border-radius: 10px;
+          width: 80%;
+          margin: 0 auto;
+          a {
+            display: flex;
+            width: 18%;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          p {
+            color: white;
+            font-size: $fs-sm;
+            b {
+              color: rgb(0, 174, 255);
+            }
+          }
+        }
+      }
+      // ====== text =======
+      .download-text {
+        width: 35%;
+        h1 {
+          color: white;
+          font-size: $fs-h1;
+          margin: 3% 0;
+        }
+        p {
+          color: white;
+          font-size: $fs-p;
+        }
+      }
+    }
+  }
+  // ============ Watch everywhere ========
+  .everywhere {
+    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    width: 100%;
+    padding: 3% 0;
+    .everywhere-container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .everywhere-text {
+        width: 35%;
+        h1 {
+          color: white;
+          font-size: $fs-h1;
+          margin: 3% 0;
+        }
+        p {
+          color: white;
+          font-size: $fs-p;
+        }
+      }
+      .everywhere-img {
+        position: relative;
+        width: 35%;
+
+        .everywhere-png {
+          display: flex;
+          z-index: 2;
+          position: relative;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .everywhere-vid {
+          position: absolute;
+          top: 11%;
+          left: 18%;
+          display: flex;
+          width: 60%;
+          video {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  // =============== Kids ===========
+  .kids {
+    padding: 3% 0;
+    .kids-container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .kids-text {
+        width: 35%;
+        h1 {
+          color: white;
+          font-size: $fs-h1;
+          margin: 3% 0;
+        }
+        p {
+          color: white;
+          font-size: $fs-p;
+        }
+      }
+      .kids-img {
+        position: relative;
+        width: 35%;
+
+        a {
+          display: flex;
+          z-index: 2;
+          position: relative;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+  // =============== asked ===========
+  .asked {
+    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    padding: 3% 0;
+    .asked-container {
+      width: 50%;
+      margin: 0 auto;
+
+      h1 {
+        font-size: $fs-h1;
+        color: white;
+        text-align: center;
+        margin-bottom: 4%;
+      }
+      .questions {
+          width: 100%;
+        .one,.two,.three,.four,.five,.six{
+            width: 100%;
+            a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 2%;
+                cursor: pointer;
+                border: 0.2vw rgba(128, 128, 128, 0.637) solid;
+                background-color:rgba(128, 128, 128, 0.356) ;
+               
+                p {
+                  color: white;
+                  font-size: $fs-p;
+                }
+                .plus {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                    i{
+                        color: white;
+                        font-size:$fs-p;
+                    }
+                    .fa-x{
+                        display: none;
+                    }
+                }
+      
+            
+              }
+              
+            
+        }
+        //  ============= details ===========
+        #details,#detailsTwo,#detailsThree,#detailsFour,#detailsFive,#detailsSix{
+            padding: 2%;
+            display: none;
+            border-bottom: 0.2vw rgba(128, 128, 128, 0.637) solid;
+            border-left: 0.2vw rgba(128, 128, 128, 0.637) solid;
+            border-right: 0.2vw rgba(128, 128, 128, 0.637) solid;
+            background-color:rgba(128, 128, 128, 0.356) ;
+            margin-bottom: 1%;
+            
+            p{
+                color: white;
+                font-size: $fs-p;
+                line-height: 2vw;
+            }
+        }
+        
+      }
+    }
+  }
+  // ============= last form =============
+  .lastForm {
+    padding: 3% 0;
+    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    .lastForm-container{
+
+      width: 40%;
+      margin: 0 auto;
+     
+       p {
+         color: white;
+         font-size: $fs-p;
+         margin: 3% 0;
+       }
+       form {
+         display: inline-flex;
+         width: 100%;
+         border-radius: 10px;
+         margin-top: 5%;
+         input {
+           width: 70%;
+           font-size: $fs-p;
+           padding: 2%;
+           border-radius: 10px 0 0 10px;
+           border: none;
+           outline: none;
+         }
+         button {
+           width: 30%;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 0 4%;
+           font-size: $fs-p;
+           background-color: red;
+           color: white;
+           border: none;
+           outline: none;
+           border-radius: 0 10px 10px 0;
+         }
+       }
+    }
+  }
+}

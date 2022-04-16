@@ -1,0 +1,238 @@
+@media only screen and (max-width:800px) {
+    header{
+        padding: 2% 3%;
+       .logo{
+           width: 30%;
+       } 
+       .header-right{
+           width: 50%;
+           select{
+               font-size: $fs-sm-mo;
+            background-size:calc($fs-sm-mo - 0.5vw);
+            option{
+                font-size: $fs-sm-mo;
+            }
+           }
+           .signIn{
+            font-size:$fs-sm-mo;
+           }
+       }
+    }
+    // ============ bg ============
+    .bg{
+    min-height: 100vw;    
+        .form{
+            width: 80%;
+            h1{
+                font-size: $fs-h1-mo;
+            }
+            p{
+                font-size: $fs-p-mo;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               input{
+                   font-size: $fs-p-mo;
+                   width: 100%;
+                   border-radius: 0;
+               } 
+               button{
+                font-size:$fs-p-mo;
+                border-radius: 0;
+                width: 40%;
+                padding: 2% 2%;
+                margin-top: 4%;
+               }
+            }
+        }
+
+    }
+    // =========== Tv =============
+    main{
+        padding: 0 3%;
+        .tv{
+            .tv-container{
+                width: 100%;                
+                flex-direction: column;
+                text-align: center;
+                .tv-text{
+                    width: 100%;
+                    h1{
+                        font-size: $fs-h1-mo;
+                    }
+                    p{
+                        font-size: $fs-p-mo;
+                    }
+                }
+                .tv-img{
+                    width: 100%;
+                }
+            }
+        }
+        // ============= download ==============
+        .download{
+            .download-container{
+                width: 100%;
+                flex-direction: column-reverse;
+                text-align: center;
+                .download-img{
+                    width: 100%;
+                    .icon{
+                        p{
+                            font-size: $fs-sm-mo;
+                        }
+                    }
+                }
+                .download-text{
+                    width: 100%;
+                    h1{
+                        font-size: $fs-h1-mo;
+                    }
+                    p{
+                        font-size: $fs-p-mo;
+                    }
+                }
+            }
+        }
+        // ============== watch everywhere ===========
+        .everywhere{
+            .everywhere-container{
+                width: 100%;
+                flex-direction: column;
+                text-align: center;
+                .everywhere-text{
+                    width: 100%;
+                    h1{
+                        font-size: $fs-h1-mo;
+                    }
+                    p{
+                        font-size: $fs-p-mo;
+                    }
+                }
+                .everywhere-img{
+                    width: 100%;
+                }
+            }
+        }
+        // ============= kids =========
+        .kids{
+            .kids-container{
+                width: 100%;
+                flex-direction: column-reverse;
+                text-align: center;
+                .kids-text{
+                    width: 100%;
+                    h1{
+                        font-size: $fs-h1-mo;
+                    }
+                    p{
+                        font-size: $fs-p-mo;
+                    }
+                }
+                .kids-img{
+                    width: 100%;
+                }
+            }
+        }
+        // ============== asked ===========
+        .asked{
+            .asked-container{
+                width: 100%;
+                h1{
+                    font-size: $fs-p-mo;
+                }
+                .questions{
+                    .one,.two,.three,.four,.five,.six{
+                        &:hover{
+                            a{
+                                p{
+                                    color: red;
+                                }
+                            }
+                        }
+                        a{
+                            p{
+                                font-size: $fs-p-mo;
+                            }
+                            .plus{
+                                i{
+                                    font-size: $fs-p-mo;
+                                }
+                            }
+                        }
+                    }
+                    // ========= details
+                    #details,#detailsTwo,#detailsThree,#detailsFour,#detailsFive,#detailsSix{
+                        p{
+                            font-size: $fs-p-mo;
+                            line-height: 7vw;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        // ================ last form ============
+        .lastForm{
+            .lastForm-container{
+                width: 100%;
+                p{
+                    font-size: $fs-p-mo;
+                    text-align: center;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    input{
+                        width: 100%;
+                        border-radius: 0;
+                   font-size: $fs-p-mo;
+
+                    }
+                    button{
+                        font-size:$fs-p-mo;
+                border-radius: 0;
+                width: 40%;
+                padding: 2% 2%;
+                margin-top: 4%;
+                    }
+                }
+            }
+        }
+    }
+    // =============== FOOTER ===========
+    footer{
+        .footer-container{
+            width: 100%;
+        padding: 0 3%;
+            p{
+                font-size: calc($fs-m-mo + 1vw);
+                margin-bottom: 3%;
+            }
+            ul{
+                li{
+                    width: 49%;
+             margin-bottom: 3%;
+                    a{
+                        font-size: $fs-m-mo;
+                    }
+                }
+            }
+            // ======= Lang 
+            select{
+                font-size: $fs-sm-mo;
+             background-size:calc($fs-sm-mo - 0.5vw);
+             width: 20%;
+             option{
+                 font-size: $fs-sm-mo;
+             }
+            }
+            small{
+                font-size: $fs-sm-mo;
+            }
+        }
+    }
+}
