@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 40vw;
+  min-height: 40rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -23,17 +23,17 @@
     );
   }
   .form {
-    width: 40%;
+    max-width: 40rem;
     text-align: center;
     position: relative;
     z-index: 3;
     h1 {
       color: white;
-      font-size: $fs-h1;
+      font-size:3rem;
     }
     p {
       color: white;
-      font-size: $fs-p;
+      font-size: 2rem;
       margin: 3% 0;
     }
     form {
@@ -43,24 +43,26 @@
       margin-top: 5%;
       input {
         width: 70%;
-        font-size: $fs-p;
+        font-size: 1.5rem;
         padding: 2%;
         border-radius: 10px 0 0 10px;
         border: none;
         outline: none;
       }
       button {
-        width: 30%;
+        min-width: 30%;
+        background-color: red;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 4%;
-        font-size: $fs-p;
-        background-color: red;
+        font-size: 1.5rem;
         color: white;
         border: none;
         outline: none;
         border-radius: 0 10px 10px 0;
+        white-space: nowrap;
+        
       }
     }
   }
@@ -68,35 +70,35 @@
 // ================ tv =================
 main {
   background-color: black;
-  width: 100%;
+  max-width: 100%;
 
   .tv {
-    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
-    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-top: 0.5rem rgba(255, 255, 255, 0.171) solid;
+    border-bottom: 0.5rem rgba(255, 255, 255, 0.171) solid;
     width: 100%;
     padding: 3% 0;
     .tv-container {
-      width: 80%;
+      max-width: 80rem;
       margin: 0 auto;
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
+       flex-wrap: wrap;
       .tv-text {
-        width: 35%;
+        max-width: 35%;
         h1 {
           color: white;
-          font-size: $fs-h1;
+          font-size: 2.8rem;
           margin: 3% 0;
         }
         p {
           color: white;
-          font-size: $fs-p;
+          font-size: 1.8rem;
         }
       }
       .tv-img {
         position: relative;
-        width: 35%;
+        width: 35rem;
         overflow: hidden;
         .tv-png {
           display: flex;
@@ -125,13 +127,14 @@ main {
     padding: 3% 0;
 
     .download-container {
-      width: 80%;
+      max-width: 80rem;
       margin: 0 auto;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       .download-img {
-        width: 30%;
+        width: 30rem;
         position: relative;
         .do-img {
           display: flex;
@@ -163,7 +166,7 @@ main {
           }
           p {
             color: white;
-            font-size: $fs-sm;
+            font-size: 0.9rem;
             b {
               color: rgb(0, 174, 255);
             }
@@ -175,24 +178,24 @@ main {
         width: 35%;
         h1 {
           color: white;
-          font-size: $fs-h1;
+          font-size: 2.8rem;
           margin: 3% 0;
         }
         p {
           color: white;
-          font-size: $fs-p;
+          font-size: 1.8rem;
         }
       }
     }
   }
   // ============ Watch everywhere ========
   .everywhere {
-    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
-    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-top: 0.5rem rgba(255, 255, 255, 0.171) solid;
+    border-bottom: 0.5rem rgba(255, 255, 255, 0.171) solid;
     width: 100%;
     padding: 3% 0;
     .everywhere-container {
-      width: 80%;
+      max-width: 80rem;
       margin: 0 auto;
       display: flex;
       justify-content: center;
@@ -202,17 +205,17 @@ main {
         width: 35%;
         h1 {
           color: white;
-          font-size: $fs-h1;
+          font-size: 2.8rem;
           margin: 3% 0;
         }
         p {
           color: white;
-          font-size: $fs-p;
+          font-size: 1.8rem;
         }
       }
       .everywhere-img {
         position: relative;
-        width: 35%;
+        width: 35rem;
 
         .everywhere-png {
           display: flex;
@@ -240,27 +243,27 @@ main {
   .kids {
     padding: 3% 0;
     .kids-container {
-      width: 80%;
+      max-width: 80rem;
       margin: 0 auto;
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
+       flex-wrap: wrap;
       .kids-text {
         width: 35%;
         h1 {
           color: white;
-          font-size: $fs-h1;
+          font-size: 2.8rem;
           margin: 3% 0;
         }
         p {
           color: white;
-          font-size: $fs-p;
+          font-size: 1.8rem;
         }
       }
       .kids-img {
         position: relative;
-        width: 35%;
+        width: 35rem;
 
         a {
           display: flex;
@@ -276,20 +279,20 @@ main {
   }
   // =============== asked ===========
   .asked {
-    border-top: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-top: 0.5rem rgba(255, 255, 255, 0.171) solid;
     padding: 3% 0;
     .asked-container {
-      width: 50%;
+      max-width: 50rem;
       margin: 0 auto;
 
       h1 {
-        font-size: $fs-h1;
+        font-size: 2.8rem;
         color: white;
         text-align: center;
         margin-bottom: 4%;
       }
       .questions {
-          width: 100%;
+        width: 100%;
         .one,.two,.three,.four,.five,.six{
             width: 100%;
             a {
@@ -303,7 +306,7 @@ main {
                
                 p {
                   color: white;
-                  font-size: $fs-p;
+                  font-size: 1.6rem;
                 }
                 .plus {
                   display: flex;
@@ -312,7 +315,7 @@ main {
 
                     i{
                         color: white;
-                        font-size:$fs-p;
+                        font-size:1.6rem;
                     }
                     .fa-x{
                         display: none;
@@ -336,8 +339,8 @@ main {
             
             p{
                 color: white;
-                font-size: $fs-p;
-                line-height: 2vw;
+                font-size: 1.6rem;
+                line-height: 2rem;
             }
         }
         
@@ -347,15 +350,14 @@ main {
   // ============= last form =============
   .lastForm {
     padding: 3% 0;
-    border-bottom: 0.4vw rgba(255, 255, 255, 0.171) solid;
+    border-bottom: 0.5rem rgba(255, 255, 255, 0.171) solid;
     .lastForm-container{
-
-      width: 40%;
+      max-width: 40rem;
       margin: 0 auto;
      
        p {
          color: white;
-         font-size: $fs-p;
+         font-size: 1.3rem;
          margin: 3% 0;
        }
        form {
@@ -365,24 +367,25 @@ main {
          margin-top: 5%;
          input {
            width: 70%;
-           font-size: $fs-p;
+           font-size: 1.3rem;
            padding: 2%;
            border-radius: 10px 0 0 10px;
            border: none;
            outline: none;
          }
          button {
-           width: 30%;
+           min-width: 30%;
            display: flex;
            justify-content: space-between;
            align-items: center;
            padding: 0 4%;
-           font-size: $fs-p;
+           font-size: 1.3rem;
            background-color: red;
            color: white;
            border: none;
            outline: none;
            border-radius: 0 10px 10px 0;
+           white-space: nowrap;
          }
        }
     }

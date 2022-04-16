@@ -1,12 +1,12 @@
 footer{
     background-color: black;
-    padding-block: 3%;
+    padding: 3% 0;
     .footer-container{
-        width: 50%;
+        max-width: 50rem;
         margin: 0 auto;
         p{
             color: gray;
-            font-size: calc($fs-m + 0.3vw);
+            font-size: 1.2rem;
             margin-bottom: 2%;
             a{
                 color: gray;
@@ -28,42 +28,46 @@ footer{
              align-items: center;
              margin-bottom: 2%;
              a{
-                 font-size: $fs-m;
+                 font-size: 1rem;
                  color: gray;
                  text-decoration: none;
              }
             }
         }
-        // ========== lang =========
+        
+        small{
+            color: gray;
+            font-size: 0.8rem;
+           display: flex;
+           margin-top: 3%;
+        }
+            // ========== lang =========
+        .footer-lan{
+            max-width: 5.5rem;
         select{
             border: 0.1vw white solid;
             background-color: transparent;
             color: white;
              padding:1% 1%;
-            width: 12%;
-            font-size: $fs-m;
+            width: 100%;
+            font-size: 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
             appearance:none;
             -webkit-appearance:none; // this is for chrome
           background-image: url(../images/arrow.png);
-          background-size:$fs-sm;
+          background-size:1rem;
           background-repeat: no-repeat;
           background-position: 90%;
         outline: none;
             option{
-                font-size: $fs-m;
+                font-size: 0.8rem;
             background-color: black;
 
             }
             
         }
-        small{
-            color: gray;
-            font-size: $fs-sm;
-           display: flex;
-           margin-top: 3%;
         }
     }
 }
