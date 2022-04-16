@@ -1,4 +1,4 @@
-# Netflix-Clone
+# Netflix-Clone-V2
 ## V2 is the Scalable Version
 Desktop Version
 ---
