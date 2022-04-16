@@ -502,10 +502,10 @@ footer .footer-container .footer-lan select option {
     padding: 0 3%;
   }
   .bg .form h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .bg .form p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .bg .form form {
     display: flex;
@@ -528,56 +528,65 @@ footer .footer-container .footer-lan select option {
   }
 
   main .tv .tv-container .tv-text {
-    min-width: 100%;
+    min-width: 80%;
     text-align: center;
   }
   main .tv .tv-container .tv-text h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   main .tv .tv-container .tv-text p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  main .download .download-container {
+    flex-wrap: wrap-reverse;
   }
   main .download .download-container .download-text {
-    min-width: 100%;
+    min-width: 80%;
     text-align: center;
   }
   main .download .download-container .download-text h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   main .download .download-container .download-text p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   main .everywhere .everywhere-container .everywhere-text {
-    min-width: 100%;
+    min-width: 80%;
     text-align: center;
   }
   main .everywhere .everywhere-container .everywhere-text h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   main .everywhere .everywhere-container .everywhere-text p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  main .kids .kids-container {
+    flex-wrap: wrap-reverse;
   }
   main .kids .kids-container .kids-text {
-    min-width: 100%;
+    min-width: 80%;
     text-align: center;
   }
   main .kids .kids-container .kids-text h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   main .kids .kids-container .kids-text p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   main .asked .asked-container h1 {
-    font-size: 2.2rem;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    margin-bottom: 4%;
   }
   main .asked .asked-container .questions .one a p, main .asked .asked-container .questions .two a p, main .asked .asked-container .questions .three a p, main .asked .asked-container .questions .four a p, main .asked .asked-container .questions .five a p, main .asked .asked-container .questions .six a p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   main .asked .asked-container .questions .one a .plus i, main .asked .asked-container .questions .two a .plus i, main .asked .asked-container .questions .three a .plus i, main .asked .asked-container .questions .four a .plus i, main .asked .asked-container .questions .five a .plus i, main .asked .asked-container .questions .six a .plus i {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   main .asked .asked-container .questions #details p, main .asked .asked-container .questions #detailsTwo p, main .asked .asked-container .questions #detailsThree p, main .asked .asked-container .questions #detailsFour p, main .asked .asked-container .questions #detailsFive p, main .asked .asked-container .questions #detailsSix p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   main .lastForm .lastForm-container {
     padding: 0 3%;
@@ -605,11 +614,17 @@ footer .footer-container .footer-lan select option {
     font-size: 1rem;
   }
 
+  footer .footer-container {
+    padding: 2%;
+  }
+  footer .footer-container ul {
+    margin-top: 4%;
+  }
   footer .footer-container ul li {
     width: 10rem;
   }
   footer .footer-container ul li a {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   footer .footer-container .footer-lan select {
     font-size: 0.8rem;

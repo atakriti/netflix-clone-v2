@@ -194,7 +194,7 @@
         // ========== download =========
         .download{
             .download-container{
-                flex-wrap: wrap;
+                flex-wrap: wrap-reverse;
                 .download-text{
                      min-width:100%;
                      text-align: center;
@@ -214,6 +214,7 @@
         // ============ kids ==========
         .kids{
             .kids-container{
+                flex-wrap: wrap-reverse;
                 .kids-text{
                     min-width: 100%;
                     text-align: center;

@@ -1,1 +1,2 @@
-# Netflix-Clone in progress .....
+# Netflix-Clone
+## V2 is the Scalable Version

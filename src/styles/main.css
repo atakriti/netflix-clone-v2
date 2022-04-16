@@ -640,7 +640,7 @@ footer .footer-container .footer-lan select option {
     text-align: center;
   }
   main .download .download-container {
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
   main .download .download-container .download-text {
     min-width: 100%;
@@ -652,6 +652,9 @@ footer .footer-container .footer-lan select option {
   main .everywhere .everywhere-container .everywhere-text {
     min-width: 100%;
     text-align: center;
+  }
+  main .kids .kids-container {
+    flex-wrap: wrap-reverse;
   }
   main .kids .kids-container .kids-text {
     min-width: 100%;
