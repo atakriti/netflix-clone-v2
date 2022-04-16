@@ -1,12 +1,13 @@
 @media only screen and (max-width:700px) {
+   
     .bg{
         .form{
             padding: 0 3%;
             h1{
-                font-size: 2.5rem;
+                font-size: 2.2rem;
             }
             p{
-                font-size: 1.5rem;
+                font-size: 1.4rem;
             }
             form{
                 display: flex;
@@ -35,13 +36,13 @@
             .tv-container{
 
                 .tv-text{
-                    min-width: 100%;
+                    min-width: 80%;
                     text-align: center;
                     h1{
-                        font-size: 2.2rem;
+                        font-size: 1.8rem;
                     }
                     p{
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
                     }
                 }
             }
@@ -49,14 +50,15 @@
         // ========== download =========
         .download{
             .download-container{
+                flex-wrap: wrap-reverse;
                 .download-text{
-                     min-width:100%;
+                     min-width:80%;
                      text-align: center;
                      h1{
-                        font-size: 2.2rem;
+                        font-size: 1.8rem;
                     }
                     p{
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
                     }
                 }
             }
@@ -65,13 +67,13 @@
         .everywhere{
             .everywhere-container{
                 .everywhere-text{
-                    min-width: 100%;
+                    min-width: 80%;
                     text-align: center;
                     h1{
-                        font-size: 2.2rem;
+                        font-size: 1.8rem;
                     }
                     p{
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
                     }
                 }
             }
@@ -79,14 +81,15 @@
         // ============ kids ==========
         .kids{
             .kids-container{
+                flex-wrap: wrap-reverse;
                 .kids-text{
-                    min-width: 100%;
+                    min-width: 80%;
                     text-align: center;
                     h1{
-                        font-size: 2.2rem;
+                        font-size: 1.8rem;
                     }
                     p{
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
                     }
                 }
             }
@@ -95,24 +98,27 @@
         .asked{
             .asked-container{
                 h1{
-                    font-size: 2.2rem;
+                    width: 90%;
+                    margin: 0 auto;
+                    font-size: 1.8rem;
+                    margin-bottom: 4%;
                 }
                 .questions{
                     .one,.two,.three,.four,.five,.six{
                         a{
                             p{
-                                font-size: 1.3rem;
+                                font-size: 1.1rem;
                             }
                             .plus{
                                 i{
-                                    font-size: 1.3rem;
+                                    font-size: 1.1rem;
                                 }
                             }
                         }
                     }
                     #details,#detailsTwo,#detailsThree,#detailsFour,#detailsFive,#detailsSix{
                         p{
-                            font-size: 1.1rem;
+                            font-size: 1rem;
                         }
                     }
                 }
@@ -151,11 +157,13 @@
 //    ====================== footer ============
    footer{
        .footer-container{
+           padding: 2%;
            ul{
+               margin-top: 4%;
                li{
                    width: 10rem;
                    a{
-                       font-size: 0.8rem;
+                       font-size: 0.6rem;
                    }
                }
            }
