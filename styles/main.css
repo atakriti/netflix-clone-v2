@@ -1,0 +1,652 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.8rem;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.664);
+  box-shadow: 10px 10px 20px black;
+}
+header .logo {
+  width: 8rem;
+}
+header .logo a {
+  display: flex;
+}
+header .logo a img {
+  width: 100%;
+  height: 100%;
+}
+header .header-right {
+  width: 15rem;
+  display: flex;
+  justify-content: space-around;
+}
+header .header-right select {
+  border: 0.1vw white solid;
+  background-color: transparent;
+  color: white;
+  width: 40%;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 4%;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url(../images/arrow.png);
+  background-size: 0.9rem;
+  background-repeat: no-repeat;
+  background-position: 90%;
+  outline: none;
+}
+header .header-right select option {
+  font-size: 0.9rem;
+  background-color: black;
+}
+header .header-right .signIn {
+  font-size: 0.9rem;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: red;
+  cursor: pointer;
+}
+
+.bg {
+  background-image: url(../images/bg.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg .brightness {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.404));
+}
+.bg .form {
+  max-width: 40rem;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.bg .form h1 {
+  color: white;
+  font-size: 3rem;
+}
+.bg .form p {
+  color: white;
+  font-size: 2rem;
+  margin: 3% 0;
+}
+.bg .form form {
+  display: inline-flex;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+.bg .form form input {
+  width: 70%;
+  font-size: 1.5rem;
+  padding: 2%;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+}
+.bg .form form button {
+  min-width: 30%;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 0 10px 10px 0;
+  white-space: nowrap;
+}
+
+main {
+  background-color: black;
+  max-width: 100%;
+}
+main .tv {
+  border-top: 0.5rem rgba(255, 255, 255, 0.171) solid;
+  border-bottom: 0.5rem rgba(255, 255, 255, 0.171) solid;
+  width: 100%;
+  padding: 3% 0;
+}
+main .tv .tv-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .tv .tv-container .tv-text {
+  max-width: 35%;
+}
+main .tv .tv-container .tv-text h1 {
+  color: white;
+  font-size: 2.8rem;
+  margin: 3% 0;
+}
+main .tv .tv-container .tv-text p {
+  color: white;
+  font-size: 1.8rem;
+}
+main .tv .tv-container .tv-img {
+  position: relative;
+  width: 35rem;
+  overflow: hidden;
+}
+main .tv .tv-container .tv-img .tv-png {
+  display: flex;
+  z-index: 2;
+  position: relative;
+}
+main .tv .tv-container .tv-img .tv-png img {
+  width: 100%;
+  height: 100%;
+}
+main .tv .tv-container .tv-img .tv-vid {
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  display: flex;
+  width: 80%;
+}
+main .tv .tv-container .tv-img .tv-vid video {
+  width: 100%;
+}
+main .download {
+  padding: 3% 0;
+}
+main .download .download-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .download .download-container .download-img {
+  width: 30rem;
+  position: relative;
+}
+main .download .download-container .download-img .do-img {
+  display: flex;
+}
+main .download .download-container .download-img .do-img img {
+  width: 100%;
+  height: 100%;
+}
+main .download .download-container .download-img .icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 8%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  border: 1px white solid;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+main .download .download-container .download-img .icon a {
+  display: flex;
+  width: 18%;
+}
+main .download .download-container .download-img .icon a img {
+  width: 100%;
+  height: 100%;
+}
+main .download .download-container .download-img .icon p {
+  color: white;
+  font-size: 0.9rem;
+}
+main .download .download-container .download-img .icon p b {
+  color: rgb(0, 174, 255);
+}
+main .download .download-container .download-text {
+  width: 35%;
+}
+main .download .download-container .download-text h1 {
+  color: white;
+  font-size: 2.8rem;
+  margin: 3% 0;
+}
+main .download .download-container .download-text p {
+  color: white;
+  font-size: 1.8rem;
+}
+main .everywhere {
+  border-top: 0.5rem rgba(255, 255, 255, 0.171) solid;
+  border-bottom: 0.5rem rgba(255, 255, 255, 0.171) solid;
+  width: 100%;
+  padding: 3% 0;
+}
+main .everywhere .everywhere-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .everywhere .everywhere-container .everywhere-text {
+  width: 35%;
+}
+main .everywhere .everywhere-container .everywhere-text h1 {
+  color: white;
+  font-size: 2.8rem;
+  margin: 3% 0;
+}
+main .everywhere .everywhere-container .everywhere-text p {
+  color: white;
+  font-size: 1.8rem;
+}
+main .everywhere .everywhere-container .everywhere-img {
+  position: relative;
+  width: 35rem;
+}
+main .everywhere .everywhere-container .everywhere-img .everywhere-png {
+  display: flex;
+  z-index: 2;
+  position: relative;
+}
+main .everywhere .everywhere-container .everywhere-img .everywhere-png img {
+  width: 100%;
+  height: 100%;
+}
+main .everywhere .everywhere-container .everywhere-img .everywhere-vid {
+  position: absolute;
+  top: 11%;
+  left: 18%;
+  display: flex;
+  width: 60%;
+}
+main .everywhere .everywhere-container .everywhere-img .everywhere-vid video {
+  width: 100%;
+}
+main .kids {
+  padding: 3% 0;
+}
+main .kids .kids-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .kids .kids-container .kids-text {
+  width: 35%;
+}
+main .kids .kids-container .kids-text h1 {
+  color: white;
+  font-size: 2.8rem;
+  margin: 3% 0;
+}
+main .kids .kids-container .kids-text p {
+  color: white;
+  font-size: 1.8rem;
+}
+main .kids .kids-container .kids-img {
+  position: relative;
+  width: 35rem;
+}
+main .kids .kids-container .kids-img a {
+  display: flex;
+  z-index: 2;
+  position: relative;
+}
+main .kids .kids-container .kids-img a img {
+  width: 100%;
+  height: 100%;
+}
+main .asked {
+  border-top: 0.5rem rgba(255, 255, 255, 0.171) solid;
+  padding: 3% 0;
+}
+main .asked .asked-container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+main .asked .asked-container h1 {
+  font-size: 2.8rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 4%;
+}
+main .asked .asked-container .questions {
+  width: 100%;
+}
+main .asked .asked-container .questions .one, main .asked .asked-container .questions .two, main .asked .asked-container .questions .three, main .asked .asked-container .questions .four, main .asked .asked-container .questions .five, main .asked .asked-container .questions .six {
+  width: 100%;
+}
+main .asked .asked-container .questions .one a, main .asked .asked-container .questions .two a, main .asked .asked-container .questions .three a, main .asked .asked-container .questions .four a, main .asked .asked-container .questions .five a, main .asked .asked-container .questions .six a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  cursor: pointer;
+  border: 0.2vw rgba(128, 128, 128, 0.637) solid;
+  background-color: rgba(128, 128, 128, 0.356);
+}
+main .asked .asked-container .questions .one a p, main .asked .asked-container .questions .two a p, main .asked .asked-container .questions .three a p, main .asked .asked-container .questions .four a p, main .asked .asked-container .questions .five a p, main .asked .asked-container .questions .six a p {
+  color: white;
+  font-size: 1.6rem;
+}
+main .asked .asked-container .questions .one a .plus, main .asked .asked-container .questions .two a .plus, main .asked .asked-container .questions .three a .plus, main .asked .asked-container .questions .four a .plus, main .asked .asked-container .questions .five a .plus, main .asked .asked-container .questions .six a .plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .asked .asked-container .questions .one a .plus i, main .asked .asked-container .questions .two a .plus i, main .asked .asked-container .questions .three a .plus i, main .asked .asked-container .questions .four a .plus i, main .asked .asked-container .questions .five a .plus i, main .asked .asked-container .questions .six a .plus i {
+  color: white;
+  font-size: 1.6rem;
+}
+main .asked .asked-container .questions .one a .plus .fa-x, main .asked .asked-container .questions .two a .plus .fa-x, main .asked .asked-container .questions .three a .plus .fa-x, main .asked .asked-container .questions .four a .plus .fa-x, main .asked .asked-container .questions .five a .plus .fa-x, main .asked .asked-container .questions .six a .plus .fa-x {
+  display: none;
+}
+main .asked .asked-container .questions #details, main .asked .asked-container .questions #detailsTwo, main .asked .asked-container .questions #detailsThree, main .asked .asked-container .questions #detailsFour, main .asked .asked-container .questions #detailsFive, main .asked .asked-container .questions #detailsSix {
+  padding: 2%;
+  display: none;
+  border-bottom: 0.2vw rgba(128, 128, 128, 0.637) solid;
+  border-left: 0.2vw rgba(128, 128, 128, 0.637) solid;
+  border-right: 0.2vw rgba(128, 128, 128, 0.637) solid;
+  background-color: rgba(128, 128, 128, 0.356);
+  margin-bottom: 1%;
+}
+main .asked .asked-container .questions #details p, main .asked .asked-container .questions #detailsTwo p, main .asked .asked-container .questions #detailsThree p, main .asked .asked-container .questions #detailsFour p, main .asked .asked-container .questions #detailsFive p, main .asked .asked-container .questions #detailsSix p {
+  color: white;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+main .lastForm {
+  padding: 3% 0;
+  border-bottom: 0.5rem rgba(255, 255, 255, 0.171) solid;
+}
+main .lastForm .lastForm-container {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+main .lastForm .lastForm-container p {
+  color: white;
+  font-size: 1.3rem;
+  margin: 3% 0;
+}
+main .lastForm .lastForm-container form {
+  display: inline-flex;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+main .lastForm .lastForm-container form input {
+  width: 70%;
+  font-size: 1.3rem;
+  padding: 2%;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+}
+main .lastForm .lastForm-container form button {
+  min-width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  font-size: 1.3rem;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 0 10px 10px 0;
+  white-space: nowrap;
+}
+
+footer {
+  background-color: black;
+  padding: 3% 0;
+}
+footer .footer-container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+footer .footer-container p {
+  color: gray;
+  font-size: 1.2rem;
+  margin-bottom: 2%;
+}
+footer .footer-container p a {
+  color: gray;
+  text-decoration: none;
+}
+footer .footer-container p a:hover {
+  text-decoration: underline;
+}
+footer .footer-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .footer-container ul li {
+  width: 24%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2%;
+}
+footer .footer-container ul li a {
+  font-size: 1rem;
+  color: gray;
+  text-decoration: none;
+}
+footer .footer-container small {
+  color: gray;
+  font-size: 0.8rem;
+  display: flex;
+  margin-top: 3%;
+}
+footer .footer-container .footer-lan {
+  max-width: 5.5rem;
+}
+footer .footer-container .footer-lan select {
+  border: 0.1vw white solid;
+  background-color: transparent;
+  color: white;
+  padding: 1% 1%;
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url(../images/arrow.png);
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: 90%;
+  outline: none;
+}
+footer .footer-container .footer-lan select option {
+  font-size: 0.8rem;
+  background-color: black;
+}
+
+@media only screen and (max-width: 700px) {
+  .bg .form {
+    padding: 0 3%;
+  }
+  .bg .form h1 {
+    font-size: 2.5rem;
+  }
+  .bg .form p {
+    font-size: 1.5rem;
+  }
+  .bg .form form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .bg .form form input {
+    width: 100%;
+    border-radius: 0;
+    font-size: 1rem;
+  }
+  .bg .form form button {
+    border-radius: 0;
+    padding: 2% 6%;
+    margin-top: 3%;
+    gap: 5%;
+    font-size: 1rem;
+  }
+
+  main .tv .tv-container .tv-text {
+    min-width: 100%;
+    text-align: center;
+  }
+  main .tv .tv-container .tv-text h1 {
+    font-size: 2.2rem;
+  }
+  main .tv .tv-container .tv-text p {
+    font-size: 1.5rem;
+  }
+  main .download .download-container .download-text {
+    min-width: 100%;
+    text-align: center;
+  }
+  main .download .download-container .download-text h1 {
+    font-size: 2.2rem;
+  }
+  main .download .download-container .download-text p {
+    font-size: 1.5rem;
+  }
+  main .everywhere .everywhere-container .everywhere-text {
+    min-width: 100%;
+    text-align: center;
+  }
+  main .everywhere .everywhere-container .everywhere-text h1 {
+    font-size: 2.2rem;
+  }
+  main .everywhere .everywhere-container .everywhere-text p {
+    font-size: 1.5rem;
+  }
+  main .kids .kids-container .kids-text {
+    min-width: 100%;
+    text-align: center;
+  }
+  main .kids .kids-container .kids-text h1 {
+    font-size: 2.2rem;
+  }
+  main .kids .kids-container .kids-text p {
+    font-size: 1.5rem;
+  }
+  main .asked .asked-container h1 {
+    font-size: 2.2rem;
+  }
+  main .asked .asked-container .questions .one a p, main .asked .asked-container .questions .two a p, main .asked .asked-container .questions .three a p, main .asked .asked-container .questions .four a p, main .asked .asked-container .questions .five a p, main .asked .asked-container .questions .six a p {
+    font-size: 1.3rem;
+  }
+  main .asked .asked-container .questions .one a .plus i, main .asked .asked-container .questions .two a .plus i, main .asked .asked-container .questions .three a .plus i, main .asked .asked-container .questions .four a .plus i, main .asked .asked-container .questions .five a .plus i, main .asked .asked-container .questions .six a .plus i {
+    font-size: 1.3rem;
+  }
+  main .asked .asked-container .questions #details p, main .asked .asked-container .questions #detailsTwo p, main .asked .asked-container .questions #detailsThree p, main .asked .asked-container .questions #detailsFour p, main .asked .asked-container .questions #detailsFive p, main .asked .asked-container .questions #detailsSix p {
+    font-size: 1.1rem;
+  }
+  main .lastForm .lastForm-container {
+    padding: 0 3%;
+  }
+  main .lastForm .lastForm-container p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  main .lastForm .lastForm-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+  }
+  main .lastForm .lastForm-container form input {
+    width: 100%;
+    border-radius: 0;
+    font-size: 1rem;
+  }
+  main .lastForm .lastForm-container form button {
+    margin-top: 4%;
+    border-radius: 0;
+    padding: 2% 6%;
+    gap: 5%;
+    font-size: 1rem;
+  }
+
+  footer .footer-container ul li {
+    width: 10rem;
+  }
+  footer .footer-container ul li a {
+    font-size: 0.8rem;
+  }
+  footer .footer-container .footer-lan select {
+    font-size: 0.8rem;
+    background-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 950px) {
+  main .tv .tv-container {
+    flex-wrap: wrap;
+  }
+  main .tv .tv-container .tv-text {
+    min-width: 100%;
+    text-align: center;
+  }
+  main .download .download-container {
+    flex-wrap: wrap;
+  }
+  main .download .download-container .download-text {
+    min-width: 100%;
+    text-align: center;
+  }
+  main .everywhere .everywhere-container {
+    flex-wrap: wrap;
+  }
+  main .everywhere .everywhere-container .everywhere-text {
+    min-width: 100%;
+    text-align: center;
+  }
+  main .kids .kids-container .kids-text {
+    min-width: 100%;
+    text-align: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */
