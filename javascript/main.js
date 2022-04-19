@@ -1,3 +1,4 @@
+details.style.display = "none"
 let one = () => {
     let details = document.getElementById("details");
     let plus = document.getElementById("plus");
@@ -14,6 +15,7 @@ let one = () => {
     }
 }
 // ====== two ========
+detailsTwo.style.display = "none"
 let two = () => {
     let detailsTwo = document.getElementById("detailsTwo");
     let plusTwo = document.getElementById("plusTwo");
@@ -30,6 +32,7 @@ let two = () => {
     }
 }
 // ======= three =========
+detailsThree.style.display = "none"
 let three = () => {
     let detailsThree = document.getElementById("detailsThree");
     let plusThree = document.getElementById("plusThree");
@@ -46,6 +49,7 @@ let three = () => {
     }
 }
 // ========= four ===========
+detailsFour.style.display = "none"
 let four = () => {
     let detailsFour = document.getElementById("detailsFour");
     let plusFour = document.getElementById("plusFour");
@@ -62,6 +66,7 @@ let four = () => {
     }
 }
 // ============= five ============
+detailsFive.style.display = "none"
 let five = () => {
     let detailsFive = document.getElementById("detailsFive");
     let plusFive = document.getElementById("plusFive");
@@ -78,6 +83,7 @@ let five = () => {
     }
 }
 // ============ six ========
+detailsSix.style.display = "none"
 let six = () => {
     let detailsSix = document.getElementById("detailsSix");
     let plusSix = document.getElementById("plusSix");
